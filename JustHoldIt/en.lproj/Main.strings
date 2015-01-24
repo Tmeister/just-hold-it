@@ -1,0 +1,39 @@
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "4fv-os-Qxo"; */
+"4fv-os-Qxo.text" = "00";
+
+/* Class = "IBUILabel"; text = "00:00:00:00"; ObjectID = "DdP-oE-Zjc"; */
+"DdP-oE-Zjc.text" = "00:00:00:00";
+
+/* Class = "IBUILabel"; text = "Latest Score"; ObjectID = "Mgf-4w-K6w"; */
+"Mgf-4w-K6w.text" = "Latest Score";
+
+/* Class = "IBUILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "IBUILabel"; text = "Higher Score"; ObjectID = "PjI-WW-oyA"; */
+"PjI-WW-oyA.text" = "Higher Score";
+
+/* Class = "IBUILabel"; text = "00:00:00:00"; ObjectID = "QTb-zm-LfL"; */
+"QTb-zm-LfL.text" = "00:00:00:00";
+
+/* Class = "IBUILabel"; text = "Just Hold It"; ObjectID = "QmT-IK-HX7"; */
+"QmT-IK-HX7.text" = "Just Hold It";
+
+/* Class = "IBUITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "IBUILabel"; text = "00:00:00"; ObjectID = "g5e-Du-wZl"; */
+"g5e-Du-wZl.text" = "00:00:00";
+
+/* Class = "IBUILabel"; text = "Elapsed Time"; ObjectID = "hb0-gY-tXj"; */
+"hb0-gY-tXj.text" = "Elapsed Time";
+
+/* Class = "IBUIButton"; highlightedTitle = "Start holding"; ObjectID = "van-ib-uWN"; */
+"van-ib-uWN.highlightedTitle" = "Start holding";
+
+/* Class = "IBUIButton"; normalTitle = "Start holding"; ObjectID = "van-ib-uWN"; */
+"van-ib-uWN.normalTitle" = "Start holding";
+
+/* Class = "IBUILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";
