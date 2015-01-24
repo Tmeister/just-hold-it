@@ -15,6 +15,7 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var actionBtn: UIButton!
     @IBOutlet weak var higherLabel: UILabel!
     @IBOutlet weak var latestLabel: UILabel!
+    @IBOutlet weak var bannerView: GADBannerView!
     
     var startTime = NSTimeInterval()
     var timer:NSTimer = NSTimer()
@@ -24,6 +25,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         actionBtn.layer.cornerRadius = 5
+        showHomeAds()
         showUserScores()
     }
     
@@ -34,6 +36,16 @@ class FirstViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func showHomeAds(){
+        
+        var request:GADRequest = GADRequest()
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.rootViewController = self
+        request.testDevices = [GAD_SIMULATOR_ID]
+        bannerView.loadRequest(request)
+        
     }
     
     func updateTime() {
