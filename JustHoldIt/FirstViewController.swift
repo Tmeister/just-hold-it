@@ -70,18 +70,14 @@ class FirstViewController: UIViewController {
         let hours = NSInteger( (elapsedVar / 60.0) / 60.0 )
         elapsedVar -= (NSTimeInterval(hours) * 60) * 60
         
-        
         let minutes = NSInteger(elapsedVar / 60.0)
         elapsedVar -= (NSTimeInterval(minutes) * 60)
         
-        //calculate the seconds in elapsed time.
         let seconds = NSInteger(elapsedVar)
         elapsedVar -= NSTimeInterval(seconds)
         
-        //find out the fraction of milliseconds to be displayed.
         let fraction = NSInteger(elapsedVar * 100)
         
-        //add the leading zero for minutes, seconds and millseconds and store them as string constants
         let strHours = hours > 9 ? String(hours):"0" + String(hours)
         let strMinutes = minutes > 9 ? String(minutes):"0" + String(minutes)
         let strSeconds = seconds > 9 ? String(seconds):"0" + String(seconds)
@@ -104,8 +100,6 @@ class FirstViewController: UIViewController {
     }
     
     func saveLatestCore(){
-        println("Saving: \(currentScore)")
-        
         if let higherScore:AnyObject = userDefaults.valueForKey("higherScore"){
             if Double( currentScore ) > higherScore as Double {
                 setScoreValuesToLabel(label: higherLabel, time: currentScore as NSTimeInterval)
@@ -116,6 +110,8 @@ class FirstViewController: UIViewController {
             setScoreValuesToLabel(label: higherLabel, time: currentScore as NSTimeInterval)
             userDefaults.setValue(currentScore, forKey: "higherScore")
         }
+        println("Saving....")
+        performSegueWithIdentifier("resultSegue", sender: self)
         setScoreValuesToLabel(label: latestLabel, time: currentScore as NSTimeInterval)
         userDefaults.setValue(currentScore, forKey: "latestScore")
 

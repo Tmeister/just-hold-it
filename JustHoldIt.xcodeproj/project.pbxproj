@@ -21,6 +21,7 @@
 		082139C51A71E4D30072781D /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082139BE1A71E4D30072781D /* RAMTransitionItemAnimation.swift */; };
 		082139C61A71E4D30072781D /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082139BF1A71E4D30072781D /* RAMAnimatedTabBarController.swift */; };
 		082139C71A71E4D30072781D /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082139C01A71E4D30072781D /* RAMItemAnimationProtocol.swift */; };
+		088D13691A75C33600A24687 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088D13681A75C33600A24687 /* ResultsViewController.swift */; };
 		08A880C01A735B89000DCA4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A880BF1A735B89000DCA4E /* Default-568h@2x.png */; };
 		08B8CFF41A735F28009906D9 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B8CFF31A735F28009906D9 /* libGoogleAdMobAds.a */; };
 		08B8CFF51A735F7F009906D9 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B8CFF31A735F28009906D9 /* libGoogleAdMobAds.a */; };
@@ -75,6 +76,7 @@
 		082139BE1A71E4D30072781D /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
 		082139BF1A71E4D30072781D /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
 		082139C01A71E4D30072781D /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		088D13681A75C33600A24687 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		08A880BF1A735B89000DCA4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		08B8CFE71A735F28009906D9 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
 		08B8CFE81A735F28009906D9 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				0821399C1A70A66A0072781D /* LaunchScreen.xib */,
 				0821398F1A70A66A0072781D /* Supporting Files */,
 				08B8D0141A7360F5009906D9 /* BridgeHeader.h */,
+				088D13681A75C33600A24687 /* ResultsViewController.swift */,
 			);
 			path = JustHoldIt;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				082139941A70A66A0072781D /* FirstViewController.swift in Sources */,
 				082139C41A71E4D30072781D /* RAMRotationAnimation.swift in Sources */,
 				082139C21A71E4D30072781D /* RAMFrameItemAnimation.swift in Sources */,
+				088D13691A75C33600A24687 /* ResultsViewController.swift in Sources */,
 				082139C31A71E4D30072781D /* RAMFumeAnimation.swift in Sources */,
 				082139C11A71E4D30072781D /* RAMBounceAnimation.swift in Sources */,
 			);
